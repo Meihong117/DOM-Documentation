@@ -1,0 +1,52 @@
+.all_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 20px;
+  width: 270px;
+  height: 380px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card h3 {
+  text-align: center;
+}
+.card img {
+  width: 250px;
+  height: 170px;
+  margin: 10px;
+}
+
+.card p {
+  display: block;
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  /* letter-spacing: 2px; */ /*左右间距*/
+  line-height: 1.6; /*上下间距*/
+}
+.a {
+  text-align: center;
+}
+
+.card a {
+  border: 0.5px solid rgb(248, 234, 248);
+  border-radius: 15px;
+  background-color: rgb(247, 229, 246);
+  padding: 7px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.card a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
