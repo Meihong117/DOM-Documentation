@@ -1,6 +1,9 @@
 .h1 {
   text-align: center;
 }
+ol {
+  columns: 4;
+}
 a {
   text-decoration: none;
 }
