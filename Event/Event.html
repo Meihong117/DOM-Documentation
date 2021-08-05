@@ -8,6 +8,37 @@
     <title>Event</title>
 </head>
 <body>
-    
+    <div class="h1"><h1>Event</h1></div>
+    <!--  -->
+    <nav>
+        <ol>
+            <li><a href="#EventListener">EventListener</a></li>
+        </ol>
+    </nav>
+    <!--  -->
+    <div class="h1" id="EventListener"><h1>EventListener</h1></div>
+    <div>
+        <button id="btn">Click here!</button>
+    </div>
+    <!-- ////////////////////////////////////////////// -->
+    <script>
+        const buttonElement = document.getElementById('btn');
+
+        // Add a handler for the 'click' event by providing a callback function.
+        // Whenever the element is clicked, a pop-up with "Element clicked!" will
+        // appear.
+        buttonElement.addEventListener('click', function (event) {
+        alert('Element clicked through function!');
+        });
+
+        // For compatibility, a non-function object with a `handleEvent` property is
+        // treated just the same as a function itself.
+        buttonElement.addEventListener('click', {
+        handleEvent: function (event) {
+            alert('Element clicked through handleEvent property!');
+        }
+        });
+
+    </script>
 </body>
 </html>
