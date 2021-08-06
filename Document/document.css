@@ -16,4 +16,11 @@ span {
 .chengeColor {
   color: red;
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container div {
+  width: 500px;
+}
 /* Document */
