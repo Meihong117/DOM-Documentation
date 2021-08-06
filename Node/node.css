@@ -1,0 +1,14 @@
+.h1,.h4{
+    text-align: center;
+}
+.overall{
+    display: flex;
+    justify-content: center;
+}
+.overall div,.container div{
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
