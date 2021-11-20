@@ -1,3 +1,9 @@
 .h1 {
   text-align: center;
 }
+span {
+  color: red;
+}
+a {
+  text-decoration: none;
+}
